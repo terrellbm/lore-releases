@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Lore Updates</title>
+    <description>Updates for Lore app</description>
+    <language>en</language>
+
+    <!-- LATEST VERSION - Copy this template for each new release -->
+    <item>
+      <title>Version 1.0.9</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>YOUR CHANGES HERE</li>
+        </ul>
+      ]]></description>
+      <pubDate>Sat, 11 Oct 2025 00:38:54 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.9/Lore-1.0.9.zip"
+        sparkle:edSignature="t0xrGmOplqUPTsGCmn4JGc47IuGHE0nVbtDHGhbF4gyXUvL5ZXbeAzpi/LTgw55zzxFXnV+4Ix86mGOI8vwpDQ=="
+        length="6552548"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.8</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>YOUR CHANGES HERE</li>
+        </ul>
+      ]]></description>
+      <pubDate>Fri, 10 Oct 2025 03:14:50 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.8/Lore-1.0.8.zip"
+        sparkle:edSignature="NRWx6OLShNXJ87fvkrEB3zg1xrizSCViiqmSPvRHhW3NHjACKg8+CxThXao1y/B203XVAFXQ2siwkF2UepVoDA=="
+        length="6341124"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.7</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>YOUR CHANGES HERE</li>
+        </ul>
+      ]]></description>
+      <pubDate>Thu, 09 Oct 2025 03:01:37 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.7/Lore-1.0.7.zip"
+        sparkle:edSignature="vOlGtuzni05MKZ40Py3Tt8BfFsQwmmQUcwwxVRYjMDIcKREFctf5zOYA2eChyUHYXq2v6eNiWoFaGQkwJ3k1Dw=="
+        length="6272075"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.7</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>YOUR CHANGES HERE</li>
+        </ul>
+      ]]></description>
+      <pubDate>Thu, 09 Oct 2025 02:50:09 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.7/Lore-1.0.7.zip"
+        sparkle:edSignature="gQMNIbDjJUhgj9ZI3XDWpCyG5Zk5N98HTwrqdto74a3XcaFHaLF5ZxXWFBJrPlaAk7B7zwJwjdPoqPj5UQq2DQ=="
+        length="6272079"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.7</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>YOUR CHANGES HERE</li>
+        </ul>
+      ]]></description>
+      <pubDate>Thu, 09 Oct 2025 02:28:46 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.7/Lore-1.0.7.zip"
+        sparkle:edSignature="LLkeU1C0R9o42CZUDMZsUEgKp/9Fx8p55/HQYsc0o+kmK4M5rRcxF1HA3R7g34179AbpMVeCKUiYZ6tPMJVRCw=="
+        length="6220001"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.7</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>YOUR CHANGES HERE</li>
+        </ul>
+      ]]></description>
+      <pubDate>Thu, 09 Oct 2025 00:47:35 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.7/Lore-1.0.7.zip"
+        sparkle:edSignature="xD1yWZ86jzeGPGyhjeE1TU8dhiSo/atkds9EzgNBDX09UDrY034yn4eoYZCQa+pEXqJNnbR/QGbdHQaY5ilMBw=="
+        length="6220005"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.6</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Fixing update errors</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 07 Oct 2025 23:07:26 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.6/Lore-1.0.6.zip"
+        sparkle:edSignature="zZeFvJu1yGOFu4kFMCMmV547M7aScL1SPRIe/iH3U8Qhxh9tDWiYrCArpaSWsDwPJ/NaEy29yF8Dk4h5mhUhCg=="
+        length="6173644"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.5</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Fixed Sparkle version detection</li>
+          <li>Added comprehensive PostHog analytics and event tracking</li>
+          <li>Added default API key with usage limits (5M tokens free tier)</li>
+          <li>Added usage tracking UI in Options</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 07 Oct 2025 22:27:39 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.5/Lore-1.0.5.zip"
+        sparkle:edSignature="xuAHZG5lzokOPJD6IOLQcMETuJQt0jEdybAp4LqN0ilLMk6jiXkFBvHvW/OYGW8TNkjaHrFY8Z0OFe705XJEBg=="
+        length="6177844"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.4</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Initial analytics implementation</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 07 Oct 2025 22:17:32 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.4/Lore-1.0.4.zip"
+        sparkle:edSignature="49JjsHCXJ3fECJpGbuWyhn5cjV2qvgmbEtoPFgKc9P5198Bp1Q4+dhmwkCFK7Cq1ccweej1uAIhvXWkq8lFHAw=="
+        length="6177842"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.3</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Bug fixes and improvements</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 06 Oct 2025 22:05:08 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/releases/download/v1.0.3/Lore-1.0.3.zip"
+        sparkle:edSignature="UmzfTlZKJece892ieUI26SZCDSqcr4z9eX6TU1qFqN+oHoLX+oWM6Qccp6JAGEZHmY/BghQ0gaOwR7sjF3prDw=="
+        length="6002098"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
+      <title>Version 1.0.2</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Added versioning</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 06 Oct 2025 21:40:59 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/message-mems/archive/refs/tags/v1.0.2.zip"
+        sparkle:edSignature="VlPN3qDJYiop3qpnZjFp1J0lxUJdFtV7rQYVvrqChdruuznB+j4XUYjvsM0ymFNDg3miMmmXjYGkoJ0Lg2K2BA=="
+        length="6002086"
+        type="application/octet-stream"/>
+    </item>
+
+
+    <!-- EXAMPLE: Version 1.0.1 -->
+    <!--
+    <item>
+      <title>Version 1.0.1</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Added automatic update support via Sparkle</li>
+          <li>Fixed memory issues during large exports</li>
+          <li>Improved UI responsiveness</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 30 Sep 2025 10:00:00 +0000</pubDate>
+      <sparkle:version>1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://yourdomain.com/releases/Lore-1.0.1.zip"
+        sparkle:edSignature="example123signature456here=="
+        length="12345678"
+        type="application/octet-stream"/>
+    </item>
+    -->
+
+  </channel>
+</rss>
