@@ -7,6 +7,27 @@
 
     <!-- LATEST VERSION - Copy this template for each new release -->
     <item>
+      <title>Version 1.0.11</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Removed more meaningful card because of unexpected outputs</li>
+          <li>Removed logging button and extra settings</li>
+          <li>Cleaned up share card and fixed parsing issues</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 14 Oct 2025 20:56:14 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/lore-releases/releases/download/v1.0.11/Lore-1.0.11.zip"
+        sparkle:edSignature="isdPkdPtgQJ6QqI7dCIclXSSy0RHqjx9DhjpNs0QWz2PeH4IYwz6qJYDEl+uYdp3TWajvmZby6100ccJ4/l4Bg=="
+        length="6571828"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>Version 1.0.10</title>
       <description><![CDATA[
         <h2>What's New</h2>
