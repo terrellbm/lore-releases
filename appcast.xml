@@ -7,6 +7,25 @@
 
     <!-- LATEST VERSION - Copy this template for each new release -->
     <item>
+      <title>Version 1.0.19</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Performance fixes for high message volumes</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 10 Dec 2025 23:26:41 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/lore-releases/releases/download/v1.0.19/Lore-1.0.19.zip"
+        sparkle:edSignature="G9P28SILFh5tpe+dNnAMuXzY3V05kg+h/T+2hRKa7xGLwUuPggKyqeCVoeGE2ExZceK+jFsjh403fKJJRGE7Aw=="
+        length="8653930"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>Version 1.0.18</title>
       <description><![CDATA[
         <h2>What's New</h2>
