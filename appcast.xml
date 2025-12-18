@@ -7,6 +7,25 @@
 
     <!-- LATEST VERSION - Copy this template for each new release -->
     <item>
+      <title>Version 1.0.24</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Bug fixes</li>
+        </ul>
+      ]]></description>
+      <pubDate>Thu, 18 Dec 2025 00:24:42 +0000</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/lore-releases/releases/download/v1.0.24/Lore-1.0.24.zip"
+        sparkle:edSignature="w6ibdhQFRzsY2YikL6V67kKQudKWZ+Becd5Ecq1HDy28f0dy61z2gsfi3eZBPijSNQwv32fvSU/lSE3M3qK4BQ=="
+        length="9816918"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>Version 1.0.23</title>
       <description><![CDATA[
         <h2>What's New</h2>
