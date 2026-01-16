@@ -8,6 +8,26 @@
     <!-- LATEST VERSION - Copy this template for each new release -->
     <!-- ROLLED BACK: v1.0.32 removed due to launch issues
     <item>
+      <title>Version 1.0.35</title>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Added compare contacts (AS SEEN ON REDDIT!)</li>
+          <li>Bug fixes</li>
+        </ul>
+      ]]></description>
+      <pubDate>Fri, 16 Jan 2026 05:38:00 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/terrellbm/lore-releases/releases/download/v1.0.35/Lore-1.0.35.zip"
+        sparkle:edSignature="tXJjulLu7DgoOsompKXMAHcun/mCCXxeJxockir8c4X4I5LZU1WpXm3dQs8Cp4mq1m1Nty/BYDWrZJz4Xn1SAg=="
+        length="42508595"
+        type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>Version 1.0.32</title>
       <description><![CDATA[
         <h2>What's New</h2>
