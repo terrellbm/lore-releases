@@ -5,8 +5,7 @@
     <description>Updates for Lore app</description>
     <language>en</language>
 
-    <!-- LATEST VERSION - Copy this template for each new release -->
-    <!-- ROLLED BACK: v1.0.32 removed due to launch issues
+    <!-- LATEST VERSION -->
     <item>
       <title>Version 1.0.35</title>
       <description><![CDATA[
@@ -27,25 +26,7 @@
         type="application/octet-stream"/>
     </item>
 
-    <item>
-      <title>Version 1.0.32</title>
-      <description><![CDATA[
-        <h2>What's New</h2>
-        <ul>
-          <li>Moved compare contacts entry point for Reddit</li>
-        </ul>
-      ]]></description>
-      <pubDate>Fri, 16 Jan 2026 00:53:14 +0000</pubDate>
-      <sparkle:version>32</sparkle:version>
-      <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://github.com/terrellbm/lore-releases/releases/download/v1.0.32/Lore-1.0.32.zip"
-        sparkle:edSignature="YbIidZbTMGZLBhASFvsSHit3w9UaYiJySgXYrSB7v5SUqNun05U+ZXe68MFQArz+mP62wON2cQqNlV1Xa0BQCQ=="
-        length="42518857"
-        type="application/octet-stream"/>
-    </item>
-    -->
+    <!-- ROLLED BACK: v1.0.32-34 had launch issues due to Sign in with Apple entitlement -->
 
     <item>
       <title>Version 1.0.31</title>
