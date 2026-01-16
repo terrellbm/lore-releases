@@ -6,6 +6,7 @@
     <language>en</language>
 
     <!-- LATEST VERSION - Copy this template for each new release -->
+    <!-- ROLLED BACK: v1.0.32 removed due to launch issues
     <item>
       <title>Version 1.0.32</title>
       <description><![CDATA[
@@ -24,6 +25,7 @@
         length="42518857"
         type="application/octet-stream"/>
     </item>
+    -->
 
     <item>
       <title>Version 1.0.31</title>
