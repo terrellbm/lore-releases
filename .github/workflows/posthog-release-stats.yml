@@ -1,49 +1,56 @@
-name: Track GitHub release stats to PostHog
+name: Track GitHub release downloads to PostHog
 
 on:
   workflow_dispatch:
   release:
     types: [published]
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *" # nightly snapshot
 
 jobs:
   track:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch releases from GitHub
-        id: releases
-        run: |
-          curl -s https://api.github.com/repos/terrellbm/lore-releases/releases \
-          | jq '[.[] | {
-              tag: .tag_name,
-              published_at: .published_at,
-              total_downloads: (.assets | map(.download_count) | add // 0),
-              asset_count: (.assets | length)
-            }]'
-      - name: Send to PostHog
+      - name: Send per-release download snapshots to PostHog
         env:
           POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
         run: |
-          curl -X POST https://app.posthog.com/capture \
-          -H "Content-Type: application/json" \
-          -d "$(jq -n \
-            --arg key "$POSTHOG_API_KEY" \
-            --argjson releases "$(curl -s https://api.github.com/repos/terrellbm/lore-releases/releases \
-              | jq '[.[] | {
-                  tag: .tag_name,
-                  published_at: .published_at,
-                  total_downloads: (.assets | map(.download_count) | add // 0),
-                  asset_count: (.assets | length)
-                }]')" \
-            '{
-              api_key: $key,
-              event: "GitHub Release Stats Snapshot",
+          curl -s https://api.github.com/repos/terrellbm/lore-releases/releases \
+          | jq -c '.[] | {
+              api_key: env.POSTHOG_API_KEY,
+              event: "GitHub Release Download Snapshot",
               distinct_id: "github-lore-releases",
               properties: {
                 repo: "lore-releases",
-                releases: $releases,
-                release_count: ($releases | length),
-                captured_at: now
+                tag: .tag_name,
+                published_at: .published_at,
+                total_downloads: (.assets | map(.download_count) | add // 0),
+                asset_count: (.assets | length)
               }
-            }')"
+            }' \
+          | while read payload; do
+              curl -s -X POST https://app.posthog.com/capture \
+                -H "Content-Type: application/json" \
+                -d "$payload";
+            done
+
+      - name: Send total downloads snapshot to PostHog
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+        run: |
+          curl -s https://api.github.com/repos/terrellbm/lore-releases/releases \
+          | jq '{
+              api_key: env.POSTHOG_API_KEY,
+              event: "GitHub Release Total Downloads Snapshot",
+              distinct_id: "github-lore-releases",
+              properties: {
+                repo: "lore-releases",
+                total_downloads_all_time: (
+                  [.[] | .assets | map(.download_count) | add // 0] | add
+                ),
+                release_count: length
+              }
+            }' \
+          | curl -s -X POST https://app.posthog.com/capture \
+              -H "Content-Type: application/json" \
+              -d @-
