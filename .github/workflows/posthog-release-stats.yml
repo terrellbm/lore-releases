@@ -1,0 +1,48 @@
+name: Track GitHub release stats to PostHog
+
+on:
+  release:
+    types: [published]
+  schedule:
+    - cron: "0 3 * * *" # nightly backup run
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch releases from GitHub
+        id: releases
+        run: |
+          curl -s https://api.github.com/repos/terrellbm/lore-releases/releases \
+          | jq '[.[] | {
+              tag: .tag_name,
+              published_at: .published_at,
+              total_downloads: (.assets | map(.download_count) | add // 0),
+              asset_count: (.assets | length)
+            }]'
+      - name: Send to PostHog
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+        run: |
+          curl -X POST https://app.posthog.com/capture \
+          -H "Content-Type: application/json" \
+          -d "$(jq -n \
+            --arg key "$POSTHOG_API_KEY" \
+            --argjson releases "$(curl -s https://api.github.com/repos/terrellbm/lore-releases/releases \
+              | jq '[.[] | {
+                  tag: .tag_name,
+                  published_at: .published_at,
+                  total_downloads: (.assets | map(.download_count) | add // 0),
+                  asset_count: (.assets | length)
+                }]')" \
+            '{
+              api_key: $key,
+              event: "GitHub Release Stats Snapshot",
+              distinct_id: "github-lore-releases",
+              properties: {
+                repo: "lore-releases",
+                releases: $releases,
+                release_count: ($releases | length),
+                captured_at: now
+              }
+            }')"
